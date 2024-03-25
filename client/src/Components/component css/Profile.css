@@ -1,0 +1,125 @@
+.profile-detaille{
+    display: flex;
+    margin-top: 3.2vw;
+    margin-left: 2.7vw;
+}
+.profile-section1{
+    width: 14vw;
+    height: 14.5vw;
+    border-right: 0.1vw solid #6598EC;
+}
+.profile-section2{
+    width: 14vw;
+    margin-left: 5vw;
+}
+.profile-section1 h1{
+   color: black;
+   font-size: 1vw;
+   margin-bottom: 0.2vw;
+   margin-top: 0;
+}
+.profile-section2 h1{
+    color: black;
+    font-size: 1vw;
+    margin-bottom: 0.2vw;
+    margin-top: 0;
+ }
+.profile-section1 p{
+    color: #838383;
+    font-size: 1vw;
+    margin-top: 0;
+    margin-bottom: 1.4vw;
+ }
+ .profile-section2 p{
+    color: #838383;
+    font-size: 1vw;
+    margin-top: 0;
+    margin-bottom: 1.4vw;
+
+ }
+ .img-position{
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+ }
+ 
+
+ .nav-profile{
+    display: flex;
+ }
+ .nav-profile img{
+    height: 3.3vw;
+    width: 3.3vw;
+    border-radius: 50%;
+    margin-right: 1.3vw;
+    margin-left: 1vw;
+ }
+ .birth-name h1{
+    margin-bottom: 0;
+    margin-top: 0.2vw;
+    font-size: 1.1vw;
+    color: black;
+ }
+ .birth-name p{
+    margin-bottom: 0;
+    margin-top: 0.2vw;
+    font-size: 1vw;
+    color: 
+    #838383;
+ }
+ .stad-profile{
+    bottom: 1.5vw;
+    width: 18vw;
+    position: relative;
+ }
+ .position2{
+    z-index: 100;
+    top: 42.3vw;
+    right: 22.2vw;
+ }
+ .position3{
+    z-index: 100;
+    top: 38.5vw;
+    right: 22.2vw;
+ }
+ .position4{
+    z-index: 100;
+    top: 38.5vw;
+    right: 17.2vw;
+ }
+ .position5{
+    z-index: 100;
+    top: 38.5vw;
+    right: 27.2vw;
+ }
+ .position6{
+    z-index: 100;
+    top: 33.5vw;
+    right: 27.2vw;
+ }
+ .position7{
+    z-index: 100;
+    top: 33.5vw;
+    right: 17.2vw;
+ }
+ .position8{
+    z-index: 100;
+    top: 30.5vw;
+    right: 22.2vw;
+ }
+ .position9{
+    z-index: 100;
+    top: 24.5vw;
+    right: 22.2vw;
+ }
+ .position10{
+    z-index: 100;
+    top: 23.5vw;
+    right: 18.2vw;
+ }
+ .position11{
+    z-index: 100;
+    top: 23.5vw;
+    right: 26.2vw;
+ }

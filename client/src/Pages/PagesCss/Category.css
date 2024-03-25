@@ -1,0 +1,72 @@
+.categorys{
+    margin-top: 3vw;
+    margin-left: 4vw;
+    height: 100%;
+}
+
+.categ-recent{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1vw;
+    color: #2673F3;
+    margin-left: 1vw;
+}
+.categorys li{
+    margin-bottom: 2vw;
+}
+/* pagination.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    right: 7vw;
+    bottom: 2vw;
+  }
+  
+  .pagination button {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1vw;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 0;
+    background-color:transparent;
+    cursor: pointer;
+    color: #6598EC;
+    border-radius: 0.4vw;
+  }  
+  .pagination button:disabled {
+    color: #9eb7df;
+  }
+  .pagination button.active {
+    background-color: #6598EC;
+    color: #fff;
+  }
+  .btn-addplayer{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    position: absolute;
+    right: 6.5vw;
+    height: 2.1vw;
+    width: 9.5vw;
+    border: 0.1vw solid #718EBF;
+    background-color: transparent;
+    border-radius: 0.7vw;
+    color:#718EBF;
+    align-items: center;
+    font-size: 0.9vw;
+  }
+  .btn-addplayer svg{
+    margin-left: 1vw;
+  }
+  .btn-addplayer:hover{
+    background-color: rgb(244, 245, 246);
+  }

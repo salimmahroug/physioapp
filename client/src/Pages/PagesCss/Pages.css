@@ -1,0 +1,153 @@
+.page-login {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+}
+
+.login-img {
+	width: 47%;
+	height: 100%;
+	background-color: #6598EC;
+}
+
+.img-login {
+	background-image: url('../../Assets/img/sports-activity-7162545-5818789\ 1.png');
+	background-size: cover;
+	height: 38vw;
+	width: 40vw;
+	margin-left: 2vw;
+	margin-top: 3vw;
+}
+
+.login-form {
+	width: 53%;
+}
+
+.form-page {
+	height: 30vw;
+	width: 35vw;
+	margin-top: 13vw;
+	margin-left: 10vw;
+}
+
+.form-page h1 {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 120%;
+	font-size: 2vw;
+	color: #6598EC;
+	margin: 0;
+}
+
+.form-page p {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 120%;
+	font-size: 1.1vw;
+	margin: 0;
+	margin-top: 1.2vw;
+	margin-bottom: 3.6vw;
+}
+
+.form-page h2 {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 120%;
+	font-size: 1.1vw;
+	margin: 0;
+}
+
+.btn-supervisor {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 120%;
+	font-size: 1.2vw;
+	margin: 0;
+	height: 4vw;
+	width: 12vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	border: 0;
+	border-radius: 0.8vw;
+	background-color: #6598EC;
+	color: white;
+}
+
+.btn-tech {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 120%;
+	font-size: 1.2vw;
+	margin: 0;
+	height: 4vw;
+	width: 12vw;
+	margin-top: 1vw;
+	border: 0;
+	border-radius: 0.8vw;
+	background-color: #6598EC;
+	color: white;
+}
+
+.form-page button:hover {
+	background-color: #3d7ce0;
+}
+
+.login-logo {
+	height: 4.5vw;
+	width: 20vw;
+	margin-left: 3.5vw;
+	position: absolute;
+	top: 3vw;
+	display: flex;
+}
+
+.login-logo h1 {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 120%;
+	font-size: 2.2vw;
+	color: white;
+	margin-left: 1vw;
+	position: relative;
+	bottom: 0.5vw;
+}
+
+.language-selector {
+	position: relative;
+	display: inline-block;
+}
+
+.language-selector select {
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+.language-selector select:focus {
+	outline: none;
+}
+
+.language-selector .icon {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+
+.link-home {
+	text-decoration: 0;
+}
+
+.btns-category {
+	width: 20vw;
+}

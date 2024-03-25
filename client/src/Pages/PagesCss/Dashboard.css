@@ -1,0 +1,334 @@
+.dashboard {
+    width: 100%;
+    height: 100%;
+    background-color: #EBEBEB;
+}
+
+.sidebare {
+    width: 25vw;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    border: 0.16vw solid #D6E6FF;
+}
+
+.dash-container {
+    margin-left: 25.3vw;
+    height: 100%;
+    background-color: #EBEBEB;
+}
+
+.navbare-dash {
+    z-index: 100;
+    background-color: white;
+    height: 7vw;
+    width: 100%;
+    position: fixed;
+    border: 0.16vw solid #D6E6FF;
+    border-left: 0;
+    display: flex;
+    padding-bottom: 0;
+}
+
+.navbare-dash input {
+    height: 2.5vw;
+    background-color: #F5F7FA;
+    border: 0;
+    width: 15vw;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1vw;
+    color: #6d8bbd;
+    position: absolute;
+    left: 38.5vw;
+    top: 2.2vw;
+    padding-left: 2vw;
+    border-radius: 1.5vw;
+    background-image: url('../../Assets/img/magnifying-glass\ 1.png');
+    /* Chemin vers votre icône */
+    background-repeat: no-repeat;
+    background-position: left 1vw center;
+    padding-left: 3vw;
+}
+
+.navbare-dash input::placeholder {
+    color: #8BA3CB;
+}
+
+.content-dash {
+    padding-top: 5.9vw;
+    margin-left: 0.1vw;
+    height: 100%;
+    width: 100%;
+
+    z-index: 1;
+}
+
+.dash-logo {
+    height: 4.5vw;
+    width: 20vw;
+    margin-left: 2.5vw;
+    position: fixed;
+    top: 1vw;
+    display: flex;
+}
+
+.dash-logo h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.6vw;
+    color: #6598EC;
+    margin-left: 1vw;
+    position: relative;
+    bottom: 0.6vw;
+}
+
+.logo-dashboard {
+    height: 2.7vw;
+}
+
+.navbare-dash h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.9vw;
+    color: #617393;
+    margin-left: 4vw;
+    padding-top: 0.6vw;
+}
+
+.dash-category {
+    margin-top: 9vw;
+}
+
+.dash-category h1 {
+    color: rgba(151, 185, 244, 0.56);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.3vw;
+    height: 3.3vw;
+    padding-top: 1.8vw;
+    padding-left: 3vw;
+    border-left: 0.35vw solid #ffffff;
+    margin: 0;
+}
+
+.link-dash {
+    text-decoration: 0;
+
+}
+
+.link-dash.selected h1 {
+    color: #6598EC;
+    border-left: 0.35vw solid #6598EC;
+}
+
+.link-dash.selected path {
+    fill: #6598EC;
+}
+.link-under.selected h1{
+    color: #6598EC;
+    border-right: 0.35vw solid #6598EC;
+}
+.icones-dash {
+    height: 1.4vw;
+    width: 1.4vw;
+    margin-right: 1.5vw;
+}
+
+.icones-dash path {
+    fill: rgba(151, 185, 244, 0.56);
+}
+
+.password-prompt-dialog {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(90, 89, 89, 0.25);
+    width: 33.5vw;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    position: fixed;
+    z-index: 100;
+}
+
+.password-prompt-dialog h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 2vw;
+    color: #6598EC;
+    margin-left: 1.5vw;
+    margin-top: 0;
+}
+
+.password-prompt-dialog p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.2vw;
+    color: #000000;
+    margin-left: 1.5vw;
+    width: 30vw;
+}
+
+.password-prompt-dialog h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.2vw;
+    color: #000000;
+    margin-left: 1.5vw;
+    margin-bottom: 0;
+}
+
+.password-prompt-dialog input {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.2vw;
+    color: #000000;
+    margin-left: 1.5vw;
+    margin-top: 0.5vw;
+    height: 3.5vw;
+    width: 28.8vw;
+    border: 2px solid #DFEAF2;
+    border-radius: 1vw;
+    padding-left: 2vw;
+}
+
+.save-btn {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+    height: 3.5vw;
+    width: 31vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+    border: 0;
+    background: #6598EC;
+}
+
+.save-btn:hover {
+    background-color: #3d77d4;
+}
+
+.prompt-header {
+    display: flex;
+}
+
+.cancel {
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    margin-left: 12.5vw;
+    border: 0;
+    font-size: 2vw;
+    color: red;
+}
+
+.cancel:hover {
+    color: rgb(161, 1, 1);
+}
+
+.profil {
+    height: 3.8vw;
+    width: 3.8vw;
+    background-color: #777070;
+    border-radius: 50%;
+    position: relative;
+    left: 53vw;
+    top: 1.4vw;
+}
+
+.notification {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: #F5F7FA;
+    position: absolute;
+    left: 60vw;
+    top: 1.9vw;
+    text-align: center;
+}
+
+.notification svg {
+    position: absolute;
+    left: 0.7vw;
+    bottom: 0.8vw;
+    height: 1.6vw;
+    width: 1.6vw;
+}
+
+.setting svg {
+    position: absolute;
+    left: 0.7vw;
+    bottom: 0.7vw;
+    height: 1.6vw;
+    width: 1.6vw;
+}
+
+.setting {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: #F5F7FA;
+    position: absolute;
+    left: 55.5vw;
+    top: 1.9vw;
+    text-align: center;
+}
+
+.setting svg {
+    margin-top: 0.9vw;
+}
+
+.notification svg {
+    margin-top: 0.9vw;
+}
+
+.under20-sidebar {
+    position: fixed;
+    top: 7.2vw;
+    left: 25.3vw;
+    height: 100%;
+    width: 23vw;
+    background-color: #ffffff;
+    z-index: 1;
+    border: 0.2vw solid #D6E6FF;
+    border-left: 0;
+    padding-left: 5vw;
+    padding-top: 3vw;
+}
+
+.link-under {
+    text-decoration: 0;
+}
+
+.under20-sidebar h1 {
+    font-size: 1.4vw;
+    border-right: 0.3vw solid #ffffff;
+    height: 4vw;
+    margin: 0;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 2vw;
+    color:#91B5F0;
+}

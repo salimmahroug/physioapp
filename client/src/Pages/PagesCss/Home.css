@@ -1,0 +1,1029 @@
+
+@keyframes movePhone {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(2%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+.Home-Container{
+    background-color: #E4ECFF;
+}
+.phone-section {
+    height: 66vw;
+    width: 55vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../../Assets/img/Phone\ Screens\ Mockup\ \(2\).png');
+    background-size: 59vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: movePhone 4s infinite alternate ;
+}
+
+.div-title h1 {
+    color: #FCFCFC;
+    font-size: 5vw;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.div-title p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.5vw;
+    font-size: 2vw;
+    /* Responsive font size */
+    color: #E8E8E8;
+}
+
+.div-title {
+    position: absolute;
+    top: 10vw;
+    left: 9vw;
+    width: 45vw;
+}
+
+.logo {
+    position: absolute;
+    top: 4vw;
+    left: 9vw;
+    background-image: url('../../Assets/img/Category.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 5.5vw;
+    width: 5.5vw;
+}
+
+
+.signin-butn {
+    position: absolute;
+    z-index: 300;
+    width: 17vw;
+    height: 4.3vw;
+    border-radius: 5vw;
+    border: 0;
+    background-image: linear-gradient(to right, #6598EC, #3C7ADF);
+    font-size: 2vw;
+    color: white;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.signin-butn:hover {
+    background-image: linear-gradient(to right, #4c87e6, #2566cf);
+}
+
+.login-div {
+    padding-top: 7vw;
+}
+
+.link-login {
+    position: absolute;
+    z-index: 100;
+    margin-top: 1vw;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.6vw;
+    border-bottom: 2px solid white;
+    margin-left: 19vw;
+
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: rgb(208, 229, 242);
+}
+.cercle-1 {
+    position: relative;
+    bottom: 30vw;
+    left: 9.5vw;
+    background-image: linear-gradient(to bottom, #3C7ADF, #6598EC);
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+  }
+  .cercle-1.large {
+    width: 33vw;
+    height: 33vw;
+  }
+
+  .cercle-2 {
+    position: relative;
+    top: 5vw;
+    left: 8vw;
+    background-image: linear-gradient(to bottom, #3C7ADF, #DCE9FF);
+    width: 32vw;
+    height: 32vw;
+    border-radius: 50%;
+    opacity: 0; /* Cacher le cercle au début */
+    transition: opacity 2.5s; /* Animation de l'opacité */
+  }
+  .cercle-2.visible {
+    opacity: 1;
+     /* Afficher le cercle lorsque le seuil est atteint */
+  }
+.phone-form {
+    height: 50vw;
+}
+
+.iphone {
+    position: relative;
+    bottom: 75vw;
+    left: 1vw;
+    width: 49vw;
+    height: 57vw;
+    filter: drop-shadow(0px 24px 24px rgba(0, 0, 0, 0.2));
+    opacity: 0; /* Initial opacity */
+}
+
+.iphone.visible {
+    opacity: 1; /* Make the iPhone visible when scrolled into view */
+    transition: opacity 1s ease; /* Transition effect */
+}
+
+
+.section-2 {
+    display: flex;
+}
+
+.mobile {
+    height: 40vw;
+    width: 42vw;
+}
+
+.mobile h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 5vw;
+    color: #3C7ADF;
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+
+.web-div h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 5vw;
+    color: #3C7ADF;
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+
+.mobile h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 2.1vw;
+    color: #6598EC;
+    margin-top: 0;
+}
+
+.web-div h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 2.1vw;
+    color: #6598EC;
+    margin-top: 0;
+}
+
+.mobile P {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.7vw;
+    color: #6D6D6D;
+    margin-top: 0;
+}
+
+.web-div P {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.7vw;
+    color: #6D6D6D;
+    margin-top: 0;
+}
+
+.app-div {
+    display: flex;
+    padding-top: 35px;
+}
+
+.btn-web{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.6vw;
+    height: 4vw;
+    width: 14.7vw;
+    border-radius: 5vw;
+    margin-right: 1vw;
+    border: 0;
+    color: white;
+    background-image: linear-gradient(to right, #6598EC, #3C7ADF);
+}
+.btn-web:hover{
+    background-image: linear-gradient(to right, #508ae7, #165ac9);
+}
+.btn-ios {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.3vw;
+    height: 4.2vw;
+    width: 14.7vw;
+    border-radius: 5vw;
+    margin-right: 1vw;
+    border: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #8ADDDF;
+}
+
+.btn-android {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.3vw;
+    height: 4.2vw;
+    width: 14.7vw;
+    border-radius: 5vw;
+    margin-right: 1vw;
+    border: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #96B4F5;
+}
+
+.btn-ios:hover {
+    background-color: #68cccd;
+}
+
+.btn-android:hover {
+    background-color: #84a8f4;
+}
+.sectieon-3 {
+    height: 59vw;
+    width: 100%;
+    padding-top: 10vw;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.web-div {
+    width: 42vw;
+    position: absolute;
+    left: 8vw;
+}
+
+.section-web {
+    position: absolute;
+    right: 5vw;
+
+}
+
+.cercle-4 {
+    position: relative;
+    bottom: 30.5vw;
+    background-image: linear-gradient(to bottom, #3C7ADF, #6598EC);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+}
+.cercle-4.large {
+  width: 35vw;
+  height: 35vw;
+}
+
+
+.cercle-3 {
+    position: relative;
+    top: 8vw;
+    background-image: linear-gradient(to bottom, #3C7ADF, #DCE9FF);
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    opacity: 0; /* Cacher le cercle au début */
+    transition: opacity 1.5s;
+}
+.cercle-3.visible {
+    opacity: 1;
+     /* Afficher le cercle lorsque le seuil est atteint */
+  }
+.desctop {
+    position: relative;
+    bottom: 8vw;
+    right: 2.5vw;
+    width: 40vw;
+    height: 57vw;
+    filter: drop-shadow(0px 24px 24px rgba(0, 0, 0, 0.2));
+    opacity: 0; /* Initial opacity */
+}
+
+.desctop.visible {
+    opacity: 1; /* Make the iPhone visible when scrolled into view */
+    transition: opacity 1s ease; /* Transition effect */
+}
+.screan1{
+    z-index: 100;
+    position: absolute;
+    right: 2.7vw;
+    top: 9.2vw;
+    border-radius: 0.5vw;
+    width: 29.5vw;
+    height: 18.5vw;
+    background-image: url('../../Assets/img/Capture\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.screan2{
+    height: 9vw;
+    width: 27vw;
+    position: absolute;
+    left:12vw ;
+    top: 2.3vw;
+    border-radius: 1.7vw;
+    z-index: 101;
+    background-image: url('../../Assets/img/Group\ 817.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-4 {
+    width: 100%;
+    height: 65vw;
+    background-color: rgba(101, 152, 236, 1);
+    display: flex;
+}
+
+.easy-dashboard {
+    width: 39vw;
+    height: 100%;
+
+    margin-left: 8vw;
+    margin-top: 12vw;
+}
+
+.easy-dashboard h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 5vw;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 4vw;
+}
+
+.easy-dashboard p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5vw;
+    color: #ffffff;
+    margin-bottom: 3vw;
+    margin-left: 0.5vw;
+    gap: 6px;
+}
+.icone_apps{
+  margin-left: 1.2vw;
+  margin-right: 0.7vw;
+}
+.icone_appios{
+    margin-left: 0.5vw;
+    margin-right: 0.1vw;
+    margin-bottom: 0.3vw;
+  }
+.icone_dash1 {
+    position: absolute;
+    right: 19vw;
+    margin-top: 2vw;
+    width: 10vw;
+    height: 8vw;
+
+}
+
+.icone_dash2 {
+    position: absolute;
+    right: 7vw;
+    margin-top: 6.5vw;
+    width: 15vw;
+    height: 12vw;
+
+}
+
+.icone_dash3 {
+    position: absolute;
+    margin-top: 54vw;
+    color: #5088E5;
+    width: 15vw;
+    height: 8vw;
+}
+
+.dashboard1 {
+    background-image: url('../../Assets/img/image\ 4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 38vw;
+    width: 45vw;
+    position: absolute;
+    margin-top: 13.3vw;
+    right: 5vw;
+    border-radius: 40px;
+}
+.screan3{
+    height: 29vw;
+    width: 19vw;
+    background-image: url('../../Assets/img/Group\ 811.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 31vw;
+    top: 4vw;
+}
+.section-5 {
+    width: 100%;
+    height: 76vw;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.ellips2 {
+    position: absolute;
+    right: 0;
+    margin-top: 39vw;
+    height: 32vw;
+    width: 20vw;
+}
+
+.ellips1 {
+    position: absolute;
+    height: 32vw;
+    width: 20vw;
+}
+
+.pricing {
+    height: 50vw;
+    width: 68vw;
+    position: relative;
+    left: 16.5vw;
+    margin-top: 10vw;
+    text-align: center;
+    z-index: 100;
+}
+
+.pricing h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 4vw;
+    color: #3C7ADF;
+    margin-top: 0;
+}
+
+.pricing h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1.5vw;
+    color: #797979;
+    margin-top: 0;
+}
+
+.pricing h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 1vw;
+    color: #3C7ADF;
+    margin-top: 0;
+}
+
+.silver1 {
+    height: 38vw;
+    width: 22vw;
+    margin: 1.7vw;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0 1.5vw 1.5vw 0;
+    text-align: left;
+    border: 0.10vw solid #C3DAFF;
+    background-color: white;
+    border-left: 0;
+}
+
+#s1lver1 {
+    border-radius: 1.5vw 0 0 1.5vw;
+    border-left: 0.10vw solid #C3DAFF;
+    border-right: 0;
+}
+
+.silver2 {
+    height: 41.5vw;
+    width: 23vw;
+    border-radius: 1.5vw;
+    border: 0.1vw solid #C3DAFF;
+    text-align: left;
+    background-color: white;
+
+}
+
+.silvers {
+    display: flex;
+}
+
+.silver1 h2 {
+    margin: 1vw;
+    color: #3C7ADF;
+    font-size: 1.6vw;
+    margin-bottom: 0;
+    margin-left: 2.5vw;
+
+}
+
+.silver2 h2 {
+    margin: 1vw;
+    color: #3C7ADF;
+    font-size: 1.8vw;
+    margin-bottom: 0;
+    margin-left: 2.4vw;
+}
+
+.silver1 h1 {
+    margin: 1vw;
+    color: #3C7ADF;
+    font-size: 3.5vw;
+    margin-top: 0;
+    margin-left: 2.5vw;
+}
+
+.silver2 h1 {
+    margin: 1vw;
+    color: #3C7ADF;
+    font-size: 4vw;
+    margin-top: 0;
+    margin-left: 2.4vw;
+}
+
+.p3 {
+    margin: 1vw;
+    color: #000000;
+    font-size: 1vw;
+    margin-left: 2.5vw;
+    margin-bottom: 6vw;
+}
+
+.p1 {
+    margin: 1vw;
+    color: #000000;
+    font-size: 1.2vw;
+    margin-left: 2.4vw;
+    margin-bottom: 4vw;
+}
+
+.p2 {
+    font-size: 1vw;
+    color: #838383;
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+}
+
+.p4 {
+    font-size: 0.85vw;
+    color: #838383;
+    margin-left: 2.5vw;
+    margin-top: 2.2vw;
+}
+
+.silver-btn1 {
+    margin-top: 1.5vw;
+    margin-left: 3.8vw;
+    background-color: #5B91E9;
+    color: white;
+    height: 3.5vw;
+    width: 14.5vw;
+    border-radius: 5vw;
+    font-size: 1.2vw;
+    border: 0;
+}
+
+.silver-btn2 {
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+    background-color: #5B91E9;
+    color: white;
+    height: 4.5vw;
+    width: 18.5vw;
+    border-radius: 5vw;
+    font-size: 1.3vw;
+    border: 0;
+}
+
+.section-6 {
+    width: 100%;
+    height: 92vw;
+    background-color: white;
+    background-image: url('../../Assets/img/Vector\ 4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.section-6 h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 4.5vw;
+    color: #3C7ADF;
+    margin-top: 0;
+    padding-top: 9vw;
+}
+
+.section-6 p {
+    font-family: "Lato", sans-serif;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 3.6vw;
+    font-size: 1.8vw;
+    color: #6D6D6D;
+    width: 45vw;
+    position: relative;
+    left: 27.5vw;
+}
+
+.features1 {
+    height: 59vw;
+    width: 5vw;
+    position: absolute;
+    left: 35vw;
+    text-align: center;
+    align-content: flex-end;
+    
+}
+.features2 {
+    height: 59vw;
+    width: 15vw;
+    position: absolute;
+    left: 35vw;
+    text-align: center;
+    align-content: flex-end;
+    transition: transform 0.5s ease-in-out; /* Ajout de la transition pour une animation fluide */
+}
+
+.features2.scrolled {
+    transform: translateX(-28vw) rotate(0deg); /* Applique la transformation initiale */
+    transition: transform 0.6s ease-in-out, /* Ajout de la transition pour le mouvement */
+                transform 0.6s 0.5s cubic-bezier(0.2, 1, 1, 1.275); /* Ajout de la transition pour le wobble après 1 seconde */
+}
+.features3 {
+    height: 59vw;
+    width: 15vw;
+    position: absolute;
+    left: 35vw; /* Place l'élément à droite */
+    text-align: center;
+    align-content: flex-end;
+    transition: transform 0.5s ease-in-out; /* Ajout de la transition pour une animation fluide */
+}
+
+.features3.scrolled {
+    transform: translateX(28vw) rotate(0deg); /* Applique la transformation initiale vers la droite */
+    transition: transform 0.6s ease-in-out, /* Ajout de la transition pour le mouvement */
+                transform 0.6s 0.5s cubic-bezier(0.2, 1, 1, 1.275); /* Ajout de la transition pour le wobble après 1 seconde */
+}
+.feature {
+    background-color: #ffffff;
+    height: 12vw;
+    width: 22vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-bottom: 10vw;
+    border-radius: 2vw;
+    text-align: left;
+    margin-bottom: 4vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+}
+.feature:hover{
+    background-color: #aec0de;
+}
+.feature h2 {
+    margin: 1vw;
+    color: #5088E5;
+    font-size: 1.4vw;
+    padding-top: 2.5vw;
+    margin-left: 2.4vw;
+}
+
+.feature h5 {
+    margin: 1vw;
+    color: #4E4E4E;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 2.5vw;
+    line-height: 2.2vw;
+    margin-left: 2.3vw;
+    width: 19vw;
+}
+.section-7 {
+    width: 100%;
+    height: 64vw;
+    display: flex;
+}
+.icone_victor{
+    position: relative;
+    left: 7.5vw;
+    top: 5.3vw;
+    z-index: +100;
+}
+.client-div {
+    height: 40vw;
+    width: 35vw;
+    margin-left: 7.2vw;
+    margin-top: 16vw;
+}
+
+.client-div h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 4.5vw;
+    color: #3C7ADF;
+}
+
+.client-div p {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2.5vw;
+    font-size: 1.4vw;
+    color: #64748B;
+    margin-top: 5vw;
+}
+
+.client-div button {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2.5vw;
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin-top: 5vw;
+    height: 3.3vw;
+    width: 12.5vw;
+    background-color: #5F94EA;
+    border-radius: 2vw;
+    border: 0;
+}
+
+.cercles-div {
+    background-image: url('../../Assets/img/Selem.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vw;
+    width: 35vw;
+    position: absolute;
+    right: 12vw;
+    margin-top: 15vw;
+}
+
+.physio-logo {
+    background-image: url('../../Assets/img/Group\ 222227.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    bottom: 14.5vw;
+    right: 15vw;
+}
+
+.esz-logo {
+    background-image: url('../../Assets/img/Esz\ 1\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    top: 2vw;
+    right: 2.5vw;
+}
+
+.round-1 {
+    position: absolute;
+    margin-left: 0vw;
+    height: 100%;
+    transform: rotate(45deg);
+    transform-origin: 18.5vw;
+    animation: rotate 14s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        /* Angle initial */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* Angle final */
+    }
+}
+
+.round-2 {
+    position: absolute;
+    height: 50%;
+    margin-top: 9.5vw;
+    margin-left: 10.5vw;
+    transform-origin: 8vw;
+    animation: rotate-inverse 14s linear infinite; /* Animation de rotation inverse */
+}
+
+@keyframes rotate-inverse {
+    from {
+        transform: rotate(0deg); /* Angle initial */
+    }
+    to {
+        transform: rotate(-360deg); /* Angle final (rotation inverse) */
+    }
+}
+.ess-logo {
+    background-image: url('../../Assets/img/1200px-Blason_étoile_du_sahel\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    bottom: 4.4vw;
+}
+
+.etihad-logo {
+    background-image: url('../../Assets/img/9285\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 5.5vw;
+    width: 5.5vw;
+    position: absolute;
+    bottom: 8vw;
+    right: 14.001vw;
+}
+
+.club-logo {
+    background-image: url('../../Assets/img/1200px-Logo_Club_africain.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 14vw;
+    right: 4.5vw;
+}
+.Home-Container footer{
+    background-color: #5088E5;
+    width: 100%;
+    height: 28vw;
+}
+.footer-1{
+    height: 22vw;
+    width: 86vw;
+    margin-left: 7vw;
+    border-bottom: 0.1vw solid white;
+}
+.footer-title{
+    padding-top: 2vw;
+    display: flex;
+}
+.footer-title h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 2.6vw;
+    color: #f7f8f9;
+}
+.footer-logo{
+    background-image: url('../../Assets/img/physioApp\ 3\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 4.5vw;
+    width: 4.5vw;
+    margin-top: 1vw;
+    margin-right: 1vw;
+}
+.footer p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5vw;
+    font-size: 1.1vw;
+    color: #f7f8f9;
+    width: 35vw;
+}
+.h4-footer{
+    display: flex;
+}
+.footer h4{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5vw;
+    font-size: 1.1vw;
+    color: #f7f8f9;
+    width: 9vw;
+}
+.righs{
+    margin-top: 2vw;
+    margin-left: 7vw;
+}
+.footer-app{
+    height: 8vw;
+    width: 10vw;
+    margin-left: 76vw;
+    position: relative;
+    bottom: 15vw;
+    
+}
+.footer-app h4{
+    margin-bottom: 0.9vw;
+}
+.footer-btn1{
+    width:9vw ;
+    height: 2.7vw;
+    border-radius: 0.5vw;
+    border: 0;
+    background-image: url('../../Assets/img/Mobile\ app\ store\ badge.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1vw;
+    margin-top: 0;
+}
+.footer-btn{
+    width:9vw ;
+    height: 2.7vw;
+    border-radius: 0.5vw;
+    border: 0;
+    background-image: url('../../Assets/img/Mobile\ app\ store\ badge\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-btn1:hover{
+    width:9.1vw ;
+    height: 2.9vw;
+}
+.footer-btn:hover{
+    width:9.1vw ;
+    height: 2.9vw;
+    
+}
+.footer-link{
+    height:2vw;
+    width: 10vw;
+    position: absolute;
+    right: 4vw;
+    margin-top: 5.9vw;
+}
+.link-twiter{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}

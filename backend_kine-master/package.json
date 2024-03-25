@@ -1,0 +1,32 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "malikdorgham@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.12.6",
+    "multer": "^1.4.5-lts.1",
+    "node-localstorage": "^2.2.1",
+    "parser": "^0.1.4",
+    "react-router-bootstrap": "^0.26.2",
+    "swagger-ui-express": "^4.6.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
